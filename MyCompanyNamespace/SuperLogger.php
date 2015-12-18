@@ -9,5 +9,6 @@ class SuperLogger
         $fh = fopen($filename, 'a');
         fwrite($fh, $msg);
         fclose($fh);
+        exit;
     }
 }
